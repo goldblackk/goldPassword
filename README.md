@@ -1,0 +1,2 @@
+# goldPassword
+C++ Password Generator
