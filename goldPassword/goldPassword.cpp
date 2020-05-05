@@ -21,6 +21,22 @@ char randomString()
 
 int main()
 {
+    cout <<
+    "                                                          \n"
+    "@@@@@@@@  @@@  @@@  @@@@@@@    @@@@@@   @@@@@@@    @@@@@@\n"
+    "@@@@@@@@  @@@  @@@  @@@@@@@@  @@@@@@@@  @@@@@@@@  @@@@@@@@\n"
+    "@@!       @@!  @@@  @@!  @@@  @@!  @@@  @@!  @@@  @@!  @@@\n"
+    "!@!       !@!  @!@  !@!  @!@  !@!  @!@  !@!  @!@  !@!  @!@\n"
+    "@!!!:!    @!@  !@!  @!@!!@!   @!@  !@!  @!@@!@!   @!@!@!@!\n"
+    "!!!!!:    !@!  !!!  !!@!@!    !@!  !!!  !!@!!!    !!!@!!!!\n"
+    "!!:       !!:  !!!  !!: :!!   !!:  !!!  !!:       !!:  !!!\n"
+    ":!:       :!:  !:!  :!:  !:!  :!:  !:!  :!:       :!:  !:!\n"
+    " :: ::::  ::::: ::  ::   :::  ::::: ::   ::       ::   :::\n"
+    ": :: ::    : :  :    :   : :   : :  :    :         :   : :\n"
+    "                                    password generator    \n"
+    "==========================================================\n"
+    "                                         by goldblack     \n"
+    "                                                          \n";
     int length;
     SetConsoleTitle( TEXT("goldPassword - Password Generator by goldblack"));
     system("Color 0A");
@@ -31,6 +47,7 @@ int main()
     for (unsigned int i = 0; i < length; ++i)
         password += randomString();
 
+    cout << "\nYour password is: ";
     cout << password << endl;
     system("pause");
 
